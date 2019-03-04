@@ -168,6 +168,11 @@ h3+p{
         text-align: center;
     }
 
+    aside{
+        text-align: center;
+        justify-content: center;
+    }
+
     .cartridge{
         margin-bottom: 10px;
     }
