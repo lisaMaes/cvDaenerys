@@ -144,5 +144,42 @@ h3+p{
 }
 
 @media screen and (max-width: 700px) {
+    
+    .container, .container-header{
+        width: 100%;
+        flex-direction: column;
+    }
 
-  }
+    aside, main{
+        width: 100%;
+    }
+
+    img{
+        width: 50%;
+        margin: auto;
+    }
+
+    h1, h1 span{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .cartridge{
+        margin-bottom: 10px;
+    }
+
+    .cartridge tbody{
+        display: flex;
+    }
+
+    .cartridge tr{
+        display :flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
